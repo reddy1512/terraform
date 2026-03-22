@@ -1,0 +1,21 @@
+# Terraform provider plugins and local state
+.terraform/
+.terraform.lock.hcl
+
+# State files (may contain sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Plan files
+tfplan
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials / secrets
+*.tfvars
+!example.tfvars
